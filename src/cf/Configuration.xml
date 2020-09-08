@@ -192,6 +192,7 @@
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>Физические_лица</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
