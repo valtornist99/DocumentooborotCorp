@@ -193,6 +193,7 @@
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Физические_лица</Catalog>
+			<Catalog>Контактные_лица_контрагентов</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
