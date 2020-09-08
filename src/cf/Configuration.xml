@@ -188,12 +188,14 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Физические_лица</Catalog>
 			<Catalog>Контактные_лица_контрагентов</Catalog>
+			<Catalog>Пользователи</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
