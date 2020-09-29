@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="0e6857fd-17f0-481e-82b2-e59cecdd9a71">
+	<Catalog uuid="45ada3f0-184b-4307-921e-38b1018a0a29">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Физические_лица" category="Object">
-				<xr:TypeId>577a3905-6f4d-4e26-8edc-d657476b1f9c</xr:TypeId>
-				<xr:ValueId>a84d61a9-ea0f-46d6-9b48-8bd8059188e4</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.РабочиеГруппы" category="Object">
+				<xr:TypeId>be72a823-b5cb-469c-b191-8169a53c4993</xr:TypeId>
+				<xr:ValueId>477b85ae-3c86-4ea9-b4e4-a7d45adeea2b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Физические_лица" category="Ref">
-				<xr:TypeId>db006cf5-d489-4022-95f9-59ac8608754e</xr:TypeId>
-				<xr:ValueId>7988c4d9-7c9a-4020-8334-ee75d6e195cf</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.РабочиеГруппы" category="Ref">
+				<xr:TypeId>39625e37-63d6-4ef2-90c0-c7357f173c7a</xr:TypeId>
+				<xr:ValueId>fd92e49c-245a-47f0-871d-ce023d13c9ef</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Физические_лица" category="Selection">
-				<xr:TypeId>8d3416b7-ffa1-43dc-8e8a-e2aac15aabc8</xr:TypeId>
-				<xr:ValueId>fc5c84a4-3e99-408d-8e2d-d0289500121e</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.РабочиеГруппы" category="Selection">
+				<xr:TypeId>ea05a6a2-dad7-4ba8-a3e3-90f071210ec9</xr:TypeId>
+				<xr:ValueId>a3ee8c10-caaf-47f8-a0b2-50e5af1e330e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Физические_лица" category="List">
-				<xr:TypeId>86860c10-c8f7-4cd5-91ca-0a969d8fd4fa</xr:TypeId>
-				<xr:ValueId>43910344-3d41-4624-85df-20d7ff155871</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.РабочиеГруппы" category="List">
+				<xr:TypeId>45d189f6-4922-4281-9e67-2b934b22d868</xr:TypeId>
+				<xr:ValueId>3fe25e2b-6c67-44eb-a9c9-a7ac2712fa9a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Физические_лица" category="Manager">
-				<xr:TypeId>5c9de8a3-46b3-486a-936a-f3e59a9211ba</xr:TypeId>
-				<xr:ValueId>059e10a3-e231-4cb8-bea0-49b62fa6b92e</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.РабочиеГруппы" category="Manager">
+				<xr:TypeId>2e931862-4b7c-4bf7-9f92-d69c86f939b8</xr:TypeId>
+				<xr:ValueId>26aa295c-48a2-4b1a-b6a7-4f2af6e2d65d</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Физические_лица</Name>
+			<Name>РабочиеГруппы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Физические лица</v8:content>
+					<v8:content>Рабочие группы</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -54,8 +54,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Физические_лица.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Физические_лица.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.РабочиеГруппы.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.РабочиеГруппы.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>

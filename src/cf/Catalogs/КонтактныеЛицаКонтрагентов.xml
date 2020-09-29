@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
 	<Catalog uuid="ff4f0ffc-94c6-4b29-93eb-7066933baeac">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Контактные_лица_контрагентов" category="Object">
+			<xr:GeneratedType name="CatalogObject.КонтактныеЛицаКонтрагентов" category="Object">
 				<xr:TypeId>0cd5e35c-1ce6-4b95-8379-bb719fb62c60</xr:TypeId>
 				<xr:ValueId>c52cc781-e288-4e0f-9912-005d13e04650</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Контактные_лица_контрагентов" category="Ref">
+			<xr:GeneratedType name="CatalogRef.КонтактныеЛицаКонтрагентов" category="Ref">
 				<xr:TypeId>f35de58c-ed00-4b59-9327-91647f77c9d8</xr:TypeId>
 				<xr:ValueId>cb17c052-579a-455b-a97a-1f656ef4e375</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Контактные_лица_контрагентов" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.КонтактныеЛицаКонтрагентов" category="Selection">
 				<xr:TypeId>af58b90e-8e79-42f4-b630-79490648e5d3</xr:TypeId>
 				<xr:ValueId>b60123bd-b9a1-4911-8a51-a743778e4079</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Контактные_лица_контрагентов" category="List">
+			<xr:GeneratedType name="CatalogList.КонтактныеЛицаКонтрагентов" category="List">
 				<xr:TypeId>44a219ca-7801-4399-99ea-6fafb6221c5a</xr:TypeId>
 				<xr:ValueId>74fb3d9f-af36-4f14-8cb5-08b8458e9128</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Контактные_лица_контрагентов" category="Manager">
+			<xr:GeneratedType name="CatalogManager.КонтактныеЛицаКонтрагентов" category="Manager">
 				<xr:TypeId>16b97450-5c1c-468b-b70c-10efb5a24232</xr:TypeId>
 				<xr:ValueId>ff1b3975-d145-485e-8aca-9b74eaf2442f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Контактные_лица_контрагентов</Name>
+			<Name>КонтактныеЛицаКонтрагентов</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -56,8 +56,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Контактные_лица_контрагентов.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Контактные_лица_контрагентов.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.КонтактныеЛицаКонтрагентов.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.КонтактныеЛицаКонтрагентов.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>

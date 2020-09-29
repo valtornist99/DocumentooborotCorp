@@ -181,7 +181,7 @@
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>DontUse</ModalityUseMode>
-			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_17</CompatibilityMode>
 			<DefaultConstantsForm/>
@@ -189,13 +189,26 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Role>Администратор</Role>
+			<Role>ЧтениеДокументов</Role>
+			<Role>ЧтениеКонтрагентов</Role>
+			<Role>ИзменениеДокументов</Role>
+			<Role>ИзменениеКонтрагентов</Role>
+			<CommonModule>ОбновитьСодержаниеФайлов</CommonModule>
+			<ScheduledJob>ОбновитьСодержаниеФайлов</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Контрагенты</Catalog>
-			<Catalog>Физические_лица</Catalog>
-			<Catalog>Контактные_лица_контрагентов</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>Файлы</Catalog>
+			<Catalog>ВнутренниеДокументы</Catalog>
+			<Catalog>ВидыДокументов</Catalog>
+			<Catalog>РабочиеГруппы</Catalog>
+			<Enum>Роли</Enum>
+			<DataProcessor>ЗапускОбновленияСодержания</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
