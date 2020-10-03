@@ -58,6 +58,11 @@
 				<Event name="OnChange">ВидПриИзменении</Event>
 			</Events>
 		</InputField>
+		<InputField name="Согласован" id="25">
+			<DataPath>Объект.Согласован</DataPath>
+			<ContextMenu name="СогласованКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="СогласованРасширеннаяПодсказка" id="27"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

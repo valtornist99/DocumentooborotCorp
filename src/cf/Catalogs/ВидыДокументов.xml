@@ -127,23 +127,23 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="d8830010-4789-42ef-920e-97fbd9d68daa">
+			<TabularSection uuid="fb0c9f8d-382d-42fd-a754-d62f94051438">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.ВидыДокументов.РабочиеГруппы" category="TabularSection">
-						<xr:TypeId>d4094538-a6a3-4401-93ab-f6ded5e9309c</xr:TypeId>
-						<xr:ValueId>ab2f6636-ae5d-4351-ac33-2389c2ada725</xr:ValueId>
+					<xr:GeneratedType name="CatalogTabularSection.ВидыДокументов.Подразделения" category="TabularSection">
+						<xr:TypeId>540ca0c8-27c3-4437-a365-50bb4ba2d208</xr:TypeId>
+						<xr:ValueId>bed8b957-3221-4ad4-84be-4bcc3e8b40bc</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыДокументов.РабочиеГруппы" category="TabularSectionRow">
-						<xr:TypeId>31e5dddb-38df-4e79-8eae-5818e79deca0</xr:TypeId>
-						<xr:ValueId>4a3723ef-b3b0-419d-806c-d915691bc51b</xr:ValueId>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыДокументов.Подразделения" category="TabularSectionRow">
+						<xr:TypeId>610a6ece-f3d3-4355-9ee5-937e8d069677</xr:TypeId>
+						<xr:ValueId>88e8830e-7ddd-4456-b163-d958c65c448b</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>РабочиеГруппы</Name>
+					<Name>Подразделения</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Рабочие группы</v8:content>
+							<v8:content>Подразделения</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -152,18 +152,18 @@
 					<Use>ForItem</Use>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="9bdc75a9-91d2-44a6-a0d7-92926e7cfbb8">
+					<Attribute uuid="81ad9d7e-f5e9-47c1-b21b-8c24edbfbc79">
 						<Properties>
-							<Name>РабочаяГруппа</Name>
+							<Name>Подразделение</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Рабочая группа</v8:content>
+									<v8:content>Подразделение</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.РабочиеГруппы</v8:Type>
+								<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
