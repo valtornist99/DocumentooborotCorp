@@ -189,6 +189,8 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<SessionParameter>РазделительЗначение</SessionParameter>
+			<SessionParameter>РазделительИспользование</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>ЧтениеДокументов</Role>
 			<Role>ЧтениеКонтрагентов</Role>
@@ -196,6 +198,7 @@
 			<Role>ИзменениеКонтрагентов</Role>
 			<Role>СогласованиеДокументов</Role>
 			<CommonModule>ОбновитьСодержаниеФайлов</CommonModule>
+			<CommonAttribute>Разделитель</CommonAttribute>
 			<ScheduledJob>ОбновитьСодержаниеФайлов</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
@@ -207,10 +210,16 @@
 			<Catalog>Файлы</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
+			<Catalog>Проекты</Catalog>
+			<Document>ПлановыеЗатратыПроекта</Document>
+			<Document>ФактическиеЗатратыПроекта</Document>
 			<Enum>Роли</Enum>
 			<Enum>Согласован</Enum>
+			<Report>ПланФактПроектов</Report>
 			<DataProcessor>ЗапускОбновленияСодержания</DataProcessor>
 			<InformationRegister>ФИО</InformationRegister>
+			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
+			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

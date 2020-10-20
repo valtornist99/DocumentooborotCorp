@@ -58,6 +58,11 @@
 				<Event name="OnChange">ВидПриИзменении</Event>
 			</Events>
 		</InputField>
+		<InputField name="Проект" id="28">
+			<DataPath>Объект.Проект</DataPath>
+			<ContextMenu name="ПроектКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="30"/>
+		</InputField>
 		<InputField name="Согласован" id="25">
 			<DataPath>Объект.Согласован</DataPath>
 			<ContextMenu name="СогласованКонтекстноеМеню" id="26"/>

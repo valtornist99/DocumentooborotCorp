@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>2</size>
+		<size>5</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -131,6 +131,13 @@
 					<tl/>
 				</c>
 			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -175,8 +182,18 @@
 			</c>
 			<c>
 				<c>
-					<f>12</f>
-					<parameter>Наименование</parameter>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -199,8 +216,13 @@
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>14</f>
 					<parameter>Организация</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -212,7 +234,46 @@
 			<c>
 				<i>1</i>
 				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проект</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
 					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проект [ИмяПроекта] № [Номер] от [Дата]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<columnsID>a1a541d6-999c-4ef8-bcd5-32a789e581d8</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>15</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -240,13 +301,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>8</index>
+		<index>9</index>
 		<row>
 			<columnsID>a1a541d6-999c-4ef8-bcd5-32a789e581d8</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>13</f>
+					<f>15</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -275,7 +336,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>9</index>
+		<index>10</index>
 		<row>
 			<c>
 				<i>1</i>
@@ -297,14 +358,14 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>10</index>
-		<indexTo>11</indexTo>
+		<index>11</index>
+		<indexTo>12</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
+		<index>13</index>
 		<row>
 			<columnsID>37fd60ae-c682-4d61-8fde-904ead1cbf43</columnsID>
 			<c>
@@ -327,15 +388,15 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>17</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>10</defaultFormatIndex>
-	<height>13</height>
-	<vgRows>13</vgRows>
+	<height>14</height>
+	<vgRows>14</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -353,7 +414,7 @@
 	</merge>
 	<merge>
 		<r>7</r>
-		<c>2</c>
+		<c>3</c>
 		<w>1</w>
 	</merge>
 	<merge>
@@ -362,7 +423,12 @@
 		<w>1</w>
 	</merge>
 	<merge>
-		<r>12</r>
+		<r>9</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>13</r>
 		<c>2</c>
 		<w>1</w>
 	</merge>
@@ -381,8 +447,8 @@
 		<name>Подвал</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>11</beginRow>
-			<endRow>12</endRow>
+			<beginRow>12</beginRow>
+			<endRow>13</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -392,7 +458,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>8</endRow>
+			<endRow>9</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -439,12 +505,32 @@
 		<markNegatives>false</markNegatives>
 	</format>
 	<format>
+		<width>0</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+		<markNegatives>false</markNegatives>
+	</format>
+	<format>
+		<width>0</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<markNegatives>false</markNegatives>
+	</format>
+	<format>
 		<width>144</width>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
 		<width>0</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<markNegatives>false</markNegatives>
+	</format>
+	<format>
+		<width>592</width>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
