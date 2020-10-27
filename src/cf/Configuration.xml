@@ -199,6 +199,7 @@
 			<Role>СогласованиеДокументов</Role>
 			<CommonModule>ОбновитьСодержаниеФайлов</CommonModule>
 			<CommonAttribute>Разделитель</CommonAttribute>
+			<ExchangePlan>РИБ</ExchangePlan>
 			<ScheduledJob>ОбновитьСодержаниеФайлов</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
@@ -220,6 +221,8 @@
 			<InformationRegister>ФИО</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
+			<BusinessProcess>Исполнение</BusinessProcess>
+			<Task>ЗадачиПользователей</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
