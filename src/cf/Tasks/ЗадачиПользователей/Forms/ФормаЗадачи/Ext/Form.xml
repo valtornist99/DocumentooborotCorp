@@ -36,6 +36,7 @@
 		</InputField>
 		<InputField name="ФактическийИсполнитель" id="22">
 			<DataPath>Объект.ФактическийИсполнитель</DataPath>
+			<ReadOnly>true</ReadOnly>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ФактическийИсполнительКонтекстноеМеню" id="23"/>
 			<ExtendedTooltip name="ФактическийИсполнительРасширеннаяПодсказка" id="24"/>
@@ -68,7 +69,6 @@
 		</InputField>
 		<InputField name="Исполнитель" id="37">
 			<DataPath>Объект.Исполнитель</DataPath>
-			<ReadOnly>true</ReadOnly>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ИсполнительКонтекстноеМеню" id="38"/>
 			<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="39"/>
