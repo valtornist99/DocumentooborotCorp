@@ -200,6 +200,7 @@
 			<CommonModule>ОбновитьСодержаниеФайлов</CommonModule>
 			<CommonAttribute>Разделитель</CommonAttribute>
 			<ExchangePlan>РИБ</ExchangePlan>
+			<HTTPService>Service_1</HTTPService>
 			<ScheduledJob>ОбновитьСодержаниеФайлов</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
@@ -218,6 +219,7 @@
 			<Enum>Согласован</Enum>
 			<Report>ПланФактПроектов</Report>
 			<DataProcessor>ЗапускОбновленияСодержания</DataProcessor>
+			<DataProcessor>ПроверкаHTTPСервиса</DataProcessor>
 			<InformationRegister>ФИО</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
